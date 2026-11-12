@@ -1,0 +1,17 @@
+<svg width="1560" height="470" viewBox="0 0 1560 470">
+  <circle cx="230" cy="235" r="86" fill="#E8B06A" stroke="#B97F2E" stroke-width="4"/>
+  <text x="230" y="248" font-size="40" text-anchor="middle" font-weight="800" fill="#5d3c0d">木星</text>
+  <circle cx="230" cy="235" r="150" fill="none" stroke="#8A93A3" stroke-width="3" stroke-dasharray="8 8"/>
+  <circle cx="352" cy="160" r="17" fill="#2456C8"/>
+  <text x="352" y="120" font-size="34" text-anchor="middle" fill="#1C2430" font-weight="700">衛星イオ</text>
+  <circle cx="1010" cy="130" r="34" fill="#7FA6E8" stroke="#2456C8" stroke-width="4"/>
+  <text x="1010" y="80" font-size="36" text-anchor="middle" font-weight="700" fill="#1C2430">地球（近い時期）</text>
+  <text x="1010" y="200" font-size="36" text-anchor="middle" fill="#15803d" font-weight="800">食は早まる</text>
+  <circle cx="1010" cy="350" r="34" fill="#7FA6E8" stroke="#2456C8" stroke-width="4"/>
+  <text x="1010" y="300" font-size="36" text-anchor="middle" font-weight="700" fill="#1C2430">地球（遠い時期）</text>
+  <text x="1010" y="425" font-size="36" text-anchor="middle" fill="#B91C1C" font-weight="800">食は遅れる</text>
+  <line x1="330" y1="180" x2="960" y2="135" stroke="#F2B134" stroke-width="5" stroke-dasharray="14 10"/>
+  <line x1="330" y1="300" x2="960" y2="345" stroke="#F2B134" stroke-width="5" stroke-dasharray="14 10"/>
+  <text x="1400" y="215" font-size="40" text-anchor="middle" font-weight="800" fill="#B91C1C">ずれ最大</text>
+  <text x="1400" y="270" font-size="44" text-anchor="middle" font-weight="800" fill="#B91C1C">約20分</text>
+</svg>

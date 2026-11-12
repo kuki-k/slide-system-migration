@@ -1,0 +1,90 @@
+{
+ "expressions": [
+  "neutral",
+  "explain",
+  "puzzled",
+  "surprised",
+  "nod",
+  "laugh"
+ ],
+ "note": "Fixed character assets for the video pipeline. Designs are generated once (ChatGPT, 2026-11-12) and reused as-is; never regenerate per video. Background of expression/standing files is off-white (#FAF9F6 family), matching the slide background.",
+ "pairs": [
+  {
+   "characters": [
+    {
+     "expressions_dir": "expressions/ (chip-*.png)",
+     "id": "chip",
+     "role": "explainer",
+     "standing": "chip-standing.png",
+     "voice": "レン (avocado_v2:MAI_03)"
+    },
+    {
+     "expressions_dir": "expressions/ (bulb-*.png)",
+     "id": "bulb",
+     "role": "questioner",
+     "standing": "bulb-standing-from-pair.png",
+     "standing_variant_note": "bulb-standing-variant.png is a different design (white gloves/shoes); do not mix with the pair design",
+     "voice": "ソラ (avocado_v2:MAI_01)"
+    }
+   ],
+   "id": "chip-bulb",
+   "pair_original": "pair-original.png",
+   "series": [
+    "コンピューティングの芯"
+   ],
+   "thumbnail_twoshot": "thumbnail-twoshot.png"
+  },
+  {
+   "characters": [
+    {
+     "expressions_dir": "expressions/ (owl-*.png)",
+     "id": "owl",
+     "role": "explainer",
+     "standing": "owl-standing.png",
+     "voice": "レン (avocado_v2:MAI_03)"
+    },
+    {
+     "expressions_dir": "expressions/ (chick-*.png)",
+     "id": "chick",
+     "role": "questioner",
+     "standing": "chick-standing-from-pair.png",
+     "voice": "ソラ (avocado_v2:MAI_01)",
+     "standing_v2": "chick-standing-v2.png (overview version, simpler style)"
+    }
+   ],
+   "id": "owl-chick",
+   "pair_original": "pair-original.png",
+   "series": [
+    "基礎知識"
+   ],
+   "thumbnail_twoshot": "thumbnail-twoshot.png (from the 2026-11-12 all-pairs overview)"
+  },
+  {
+   "characters": [
+    {
+     "id": "robot-tall",
+     "role": "explainer",
+     "voice": "レン (avocado_v2:MAI_03)",
+     "standing": "robots/robot-tall-standing.png",
+     "expressions_dir": "robots/expressions/ (robot-tall-*.png, head-only, cropped from overview — modest resolution)"
+    },
+    {
+     "id": "robot-small",
+     "role": "questioner",
+     "voice": "ソラ (avocado_v2:MAI_01)",
+     "standing": "robots/robot-small-standing.png",
+     "expressions_dir": "robots/expressions/ (robot-small-*.png, head-only, cropped from overview — modest resolution)"
+    }
+   ],
+   "id": "robots",
+   "series": [
+    "LLM・AIの内臓",
+    "AI系シリーズ全般"
+   ],
+   "status": "complete (white design adopted as canonical from the 2026-11-12 all-pairs overview; the earlier navy pair design in robots-pair-original.png is a superseded draft — do not use)",
+   "thumbnail_twoshot": "robots/thumbnail-twoshot.png"
+  }
+ ],
+ "storyboard_usage": "Scenes may specify a character overlay as data.characters: [{pair, who, expr, side}] — renderer support (slidekit component) is implemented together with the dialogue/telop work in re-examination v2; until then the files are registered assets only.",
+ "version": "2026-11-12"
+}
